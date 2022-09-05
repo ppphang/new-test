@@ -1,0 +1,21 @@
+* {
+
+  box-sizing: border-box;
+}
+
+body {
+
+  display: flex;
+  flex-direction: column;
+  /* flex-direction x(主轴row)y(辅轴column)排序*/
+  align-items: center;
+  /* align-items,能够设置子元素的对齐和空间分配方式,常用做居中设置 */
+  justify-content: center;
+  height: 100vh;
+  /* height:100vh == height:100%; 
+  但是有个好处是当元素没有内容时候,
+  设置height:100%该元素不会被撑开, 
+  但是设置height:100vh,该元素会被撑开屏幕高度一致。 */
+  overflow: hidden;
+  margin: 0;
+}
